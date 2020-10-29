@@ -18,11 +18,13 @@
 # Ele quer saber quantas aulas pode faltar, sabendo que tem duas aulas por semana, durante quatro meses. 
 # Ajude o Davinir!
 
-diasAula = (2**4)*4
-print (diasAula)
-falta = diasAula*0.75
+diasAula = (2*4)*4
 
-print(falta)
+print ('Você tem ' + str(diasAula) + ' dias de aula')
+
+falta = diasAula*0.25
+
+print('Você pode faltar ' + str(falta) + ' dias')
 
 
     
